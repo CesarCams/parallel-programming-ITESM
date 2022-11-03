@@ -52,7 +52,6 @@ int** result(int l1, int c1,int A[l1][c1] , int l2, int c2,int B[l2][c2])
 
 int main()
 {
-//#pragma omp parallel
     {
         int mat1[2][3] = {
                 {1, 2, 3},
